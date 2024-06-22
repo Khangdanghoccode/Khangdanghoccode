@@ -1,0 +1,24 @@
+{
+  "name": "baitap1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev node index.js",
+    "qc": "cross-env NODE_ENV=qc node index.js",
+    "prod": "cross-env NODE_ENV=prod node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
